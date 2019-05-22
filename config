@@ -1,8 +1,0 @@
-server {
-  server_name loveice.xin;
-  root /www/time;
-  index index.html;
-  location ~* ^.+\.(jpg|jpeg|gif|png|ico|css|js|pdf|txt){
-    root /www/time;
-  }
-}
